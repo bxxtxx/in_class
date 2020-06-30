@@ -55,14 +55,11 @@ public class Baseball {
 			b3 = Integer.parseInt(scan.nextLine());
 			
 			
-			
 			if(b1 == x) cnt_s ++;
 			
 			if(b2 == y) cnt_s ++;
 			
 			if(b3 == z) cnt_s ++;
-			
-
 			
 			
 			if(b1 == y || b1 == z) cnt_b ++;
@@ -70,8 +67,6 @@ public class Baseball {
 			if(b2 == x || b2 == z) cnt_b ++;
 			
 			if(b3 == x || b3 == y) cnt_b ++;
-			
-			
 			
 			
 			System.out.println(b1 + "" + b2+ ""+b3 + " :     " + cnt_s +"S " + cnt_b + "B " + (cnt_o-(cnt_s+cnt_b))+"O\n");
@@ -83,7 +78,6 @@ public class Baseball {
 			
 			
 		}
-		
 		
 	}
 
