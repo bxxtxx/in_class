@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 import java.util.Arrays;
+=======
+
+
+>>>>>>> e94235ebd38755e218f3ad752df7c94d684527c8
 
 
 
@@ -6,9 +11,13 @@ class Enemy{
 	
 	String name;
 	String type;
+<<<<<<< HEAD
 	int speed; //생성자 안에 적힌 변수들. 초기화
 	
 	int x = 5; //생성자와 함께 작성은 안되지만, 내포되어있는 인스턴스 변수
+=======
+	int speed;
+>>>>>>> e94235ebd38755e218f3ad752df7c94d684527c8
 	
 	
 	Enemy(){
@@ -28,6 +37,7 @@ class Enemy{
 		this.name = name;
 		this.type = type;
 		this.speed = speed;
+<<<<<<< HEAD
 	}
 
 }
@@ -168,12 +178,22 @@ class Sort_repeat{
 	}
 	
 	
+=======
+		
+	}
+
+>>>>>>> e94235ebd38755e218f3ad752df7c94d684527c8
 	
 }
 
 
 
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> e94235ebd38755e218f3ad752df7c94d684527c8
 
 
 public class Sample {
@@ -182,6 +202,11 @@ public class Sample {
 		
 		
 		
+<<<<<<< HEAD
+=======
+		
+		
+>>>>>>> e94235ebd38755e218f3ad752df7c94d684527c8
 		Enemy enemy = new Enemy();
 		Enemy enemy1 = new Enemy("돼지");
 		Enemy enemy2 = new Enemy("당근","채소", 8);
@@ -193,5 +218,12 @@ public class Sample {
 		
 		
 		
+<<<<<<< HEAD
+=======
+		
+		
+		
+		
+>>>>>>> e94235ebd38755e218f3ad752df7c94d684527c8
 	}
 }
