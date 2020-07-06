@@ -19,6 +19,16 @@ public class Hello{
 		Sort_repeat.bubbleSort(arr);
 		Sort_repeat.insertSort(arr);
 	*/
+		
+		
+		
+		String a = "hihi";
+		
+		String b = a + "dad";
+		
+		
+		System.out.println(b);
+		
 	}
 	
 }

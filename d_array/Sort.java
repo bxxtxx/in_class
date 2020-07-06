@@ -26,7 +26,7 @@ public class Sort {
 		sort.insertSort(arr);
 		
 //		sort.bubbleSort(arr);
-//		sort.selectSort(arr);
+		sort.selectSort(arr);
 //		sort.printBank(arr);
 		
 	}
@@ -103,24 +103,6 @@ class Sort_test {
 		}
 		
 		
-		/*
-		 * for(int i = 1; i< arr.length ; i++){
-			
-			key = arr[i];
-			int j = 0;
-			for(j = i - 1; j >= 0; j--){
-				
-				if(arr[j] > key){
-					arr[j +1] = arr[j]
-					
-				}
-				else{
-				break;
-			}
-			arr[j + 1] = temp;
-		}
-		 * 
-		 */
 		System.out.println(Arrays.toString(arr));
 		
 		
@@ -157,20 +139,18 @@ class Sort_test {
 
 		for (int i = 0; i < arr.length - 1; i++) {
 
-			int min = arr[i];
-			int cnt = i;
+			int min = i;
 
 			for (int j = i + 1; j < arr.length; j++) {
 
-				if (arr[j] <= min) {
+				if (arr[j] < arr[min]) {
 
-					min = arr[j];
-					cnt = j;
+					min = j;
 				}
 
 			}// 최소값 구함, 자리수도 구함 (cnt)
 
-			swap(arr, i, cnt);
+			swap(arr, i, min);
 		}
 		System.out.println(Arrays.toString(arr));
 	}
@@ -183,9 +163,6 @@ class Sort_test {
 
 		for (int i = 0; i < arr.length; i++) {
 			score[i] = 1;
-		}
-
-		for (int i = 0; i < arr.length; i++) {
 			for (int j = 0; j < arr.length; j++) {
 
 				if (arr[i] > arr[j])

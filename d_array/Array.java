@@ -1,10 +1,5 @@
 package d_array;
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> e94235ebd38755e218f3ad752df7c94d684527c8
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -25,10 +20,6 @@ public class Array {
 		 */
 		
 		
-<<<<<<< HEAD
-=======
-		
->>>>>>> e94235ebd38755e218f3ad752df7c94d684527c8
 	/*	
 		int[] array; //배열의 주소를 저장할 공간이 만들어진다.
 		
@@ -147,17 +138,6 @@ public class Array {
 			
 		}
 		*/
-		
-		
-		
-		
-		
-		
-		
-<<<<<<< HEAD
-=======
-		
->>>>>>> e94235ebd38755e218f3ad752df7c94d684527c8
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.print("최소값 : ");
@@ -185,14 +165,15 @@ public class Array {
 			System.out.println(min + i + ":\t" + count[i] + "번");
 
 		}
-<<<<<<< HEAD
 		
 		
-		System.out.println(Arrays.toString(count));
 		
-		Sort_test.selectSort(count);
-=======
->>>>>>> e94235ebd38755e218f3ad752df7c94d684527c8
+		
+		
+		
+//		System.out.println(Arrays.toString(count));
+		
+
 
 	}
 	
